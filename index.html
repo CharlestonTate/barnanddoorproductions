@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Name -->
+    <title>Barn and Door Productions Draft</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Packs -->
+    <script src="https://kit.fontawesome.com/a350595132.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>*Profession Here*</p>
+                <h1>Hi I'm <span>*CN*</span><br>I'm From America</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem itaque ex alias obcaecati rerum ipsam adipisci dolorum assumenda nihil expedita, corrupti similique nemo ad saepe maxime, quaerat nam magnam qui!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>*Client Profession 1*</span><br>*More Info*</li>
+                            <li><span>*Client Profession 2*</span><br>*More Info*</li>
+                            <li><span>*Client Profession 3*</span><br>*More Info*</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>*Client Current Project 1*</span><br>*More Info*</li>
+                            <li><span>*Client Current Project 2*</span><br>*More Info*</li>
+                            <li><span>*Client Current Project 3*</span><br>*More Info*</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>*Client Project History 1*</span><br>*More Info*</li>
+                            <li><span>*Client Project History 2*</span><br>*More Info*</li>
+                            <li><span>*Client Project History 3*</span><br>*More Info*</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-wrench"></i>
+                    <h2>*Thing 1*</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse itaque eius tempore quia.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-scroll"></i>
+                    <h2>*Thing 2*</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse itaque eius tempore quia.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>*Thing 3*</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse itaque eius tempore quia.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Thing 1</h3>
+                        <p>This is a cool thing that does a thing that does a thing that does a thing that does something else.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Thing 2</h3>
+                        <p>This is a cool thing that does a thing that does a thing that does a thing that does something else.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Thing 3</h3>
+                        <p>This is a cool thing that does a thing that does a thing</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- AOS Scrolling -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- JS File if Needed -->
+    <script src="script.js"></script>
+</body>
+</html>
