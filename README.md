@@ -1,5 +1,5 @@
 # KEEP IN MIND
-## THIS ORIGONAL LAYOUT AND DESIGN IS NOT MINE
+## THIS ORIGINAL LAYOUT AND DESIGN IS NOT MINE
 ### I learned all of my Designing from [Online Tutorials](https://www.youtube.com/@OnlineTutorialsYT)
 ### As well as [Easy Tutorials](https://www.youtube.com/@EasyTutorialsVideo)
 
