@@ -35,7 +35,8 @@ nav
 }
 .logo
 {
-    width: 140px;
+    width: 350px;
+    justify-content: center;
 }
 nav ul li
 {
@@ -55,7 +56,7 @@ nav ul li a::after
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #FFD700;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -68,7 +69,10 @@ nav ul li a:hover::after
 .header-text
 {
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    bottom: 70px;
 }
 .header-text h1
 {
@@ -77,14 +81,14 @@ nav ul li a:hover::after
 }
 .header-text h1 span
 {
-    color: #ff004f;
+    color: #FFD700;
 }
 
 /* about section */
 #about
 {
     padding: 80px 0;
-    color: #ababab;
+    font-size: 20px;
 }
 .row
 {
@@ -104,12 +108,13 @@ nav ul li a:hover::after
 .about-col-2
 {
     flex-basis: 60%;
+    color: #fff;
 }
 sub-title
 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 800;
-    color: #fff;
+    color: #FFD700;
 }
 .tab-titles
 {
@@ -129,7 +134,7 @@ sub-title
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #FFD700;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -200,7 +205,7 @@ sub-title
 }
 .services-list div:hover
 {
-    background: #ff004f;
+    background: #FFD700;
     transform: translateY(-10px);
 }
 
@@ -233,7 +238,7 @@ sub-title
 {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #FFD700);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -255,7 +260,7 @@ sub-title
 .layer a
 {
     margin-top: 20px;
-    color: #ff004f;
+    color: #FFD700;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -277,7 +282,7 @@ sub-title
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #FFD700;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -286,7 +291,7 @@ sub-title
 }
 .btn:hover
 {
-    background: #ff004f;
+    background: #FFD700;
 }
 
 /* contact stuff */
@@ -304,7 +309,7 @@ sub-title
 }
 .contact-left p i
 {
-    color: #ff004f;
+    color: #FFD700;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -323,14 +328,14 @@ sub-title
 }
 .social-icons a:hover
 {
-    color: #ff004f;
+    color: #FFD700;
     transform: translateY(-5px);
 
 }
 .btn.btn2
 {
     display: inline-block;
-    background: #ff004f;
+    background: #FFD700;
 }
 .contact-right
 {
@@ -397,7 +402,7 @@ nav .fas
     }
     nav ul
     {
-        background: #ff004f;
+        background: #FFD700;
         position: fixed;
         top: 0;
         right: -200px;
