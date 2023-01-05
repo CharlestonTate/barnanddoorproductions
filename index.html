@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Name -->
-    <title>Barn and Door Productions Draft</title>
+    <title>Barn and Door Productions</title>
     <!-- CSS Links -->
     <link rel="stylesheet" href="style.css">
     <!-- Font Packs -->
     <script src="https://kit.fontawesome.com/a350595132.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div id="header">
         <div class="container">
-            <nav><img src="images/logo.png" class="logo">
-                <ul id="sidemenu">
+            <nav>
+                <img src="images/logo.png" class="logo" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000"  data-aos-once='true'>
+                <ul id="sidemenu" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
                     <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">Meet The Founder</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Our Work</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
-                <p>*Profession Here*</p>
-                <h1>Hi I'm <span>*CN*</span><br>I'm From America</h1>
+            <div class="header-text" data-aos="fade-right">
+                <p data-aos="fade-right" data-aos-delay="1500" data-aos-duration="1000">Welcome!</p>
+                <h1 data-aos="fade-right " data-aos-delay="2000" data-aos-duration="1000">I'm <span>Jak Kristowski</span><br>CEO of Barn and Door<br>Productions</h1>
             </div>
         </div>
     </div>
@@ -35,18 +38,20 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png">
+                    <img src="images/user.png" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000"  data-aos-once='true'>
                 </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem itaque ex alias obcaecati rerum ipsam adipisci dolorum assumenda nihil expedita, corrupti similique nemo ad saepe maxime, quaerat nam magnam qui!</p>
+                <div class="about-col-2" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000"  data-aos-once='true'>
+                    <h1 class="sub-title" style="color: #FFD700;">Meet the Founder!<br></h1>
+                    <p>Jak Kristowski was born in Tampa Florida where he started making films and posting them on YouTube. He moved to South Carolina when he was 13, he started getting involved more with production companies and productions he started a Film Club and directed a film Called Julia Legare.<br><br> At the age 18, he decided to start his own production company called barn door productions. His company has produced, directed, and casted multiple different productions.</p>
+                    <h1 style="color: #FFD700;"><br>What is Barn and Door Productions?</h1>
+                    <p>Barn Door Productions is a production company based in Charleston South Carolina, the company was founded in 2022 by Jak Kristowski. We have worked in multiple genres, such as TV, film, music, videos, online multimedia. some of our credits are working with the kidfacechance, and working on Spider-Man: the dark age.</p>
 
-                    <div class="tab-titles">
+                    <!-- <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                     <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>*Client Profession 1*</span><br>*More Info*</li>
                             <li><span>*Client Profession 2*</span><br>*More Info*</li>
@@ -66,12 +71,12 @@
                             <li><span>*Client Project History 2*</span><br>*More Info*</li>
                             <li><span>*Client Project History 3*</span><br>*More Info*</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
-    <div id="services">
+    <!-- <div id="services">
         <div class="container">
             <h1 class="sub-title">Our Services</h1>
             <div class="services-list">
@@ -89,57 +94,55 @@
                 </div>
                 <div>
                     <i class="fa-solid fa-phone"></i>
-                    <h2>*Thing 3*</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse itaque eius tempore quia.</p>
+                    <h2>Give Us a Call!</h2>
+                    <p>We would love to speak with you! Just give us an email or call.</p>
                     <a href="#">Learn More</a>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="portfolio">
+    </div> -->
+    <div id="portfolio" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"  data-aos-once='true'>
         <div class="container">
             <h1 class="sub-title">Our Work</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/work-1.png">
                     <div class="layer">
-                        <h3>Thing 1</h3>
-                        <p>This is a cool thing that does a thing that does a thing that does a thing that does something else.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Worked with<br>The Kidface Chance</h3>
+                        <a href="https://youtube.com/@thekidfacechance39" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-2.png">
                     <div class="layer">
-                        <h3>Thing 2</h3>
-                        <p>This is a cool thing that does a thing that does a thing that does a thing that does something else.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                        <h3>Spider-Man: The Dark Age (TV series)</h3>
+                        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png">
                     <div class="layer">
-                        <h3>Thing 3</h3>
-                        <p>This is a cool thing that does a thing that does a thing</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                        <h3 style="font-size: 20px;">You Could be on Our Site!</h3>
+                        <p>What are you waiting for?</p>
+                        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></i></a>
                     </div>
                 </div>
             </div>
             <a href="#" class="btn">See More</a>
         </div>
     </div>
-    <div id="contact">
+    <div id="contact" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"  data-aos-once='true'>
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i>Contact@example.com</p>
-                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <p><i class="fa-solid fa-envelope"></i>barndoorproductions413@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>864-900-1972</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/BarndoorProductions413" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-twitter-square"></i></a> -->
+                        <a href="https://www.instagram.com/invites/contact/?i=nprozrgtigh6&utm_content=mg6qe61" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-tiktok"></i></a> -->
                     </div>
                     <!-- <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a> -->
                 </div>
@@ -148,7 +151,7 @@
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message" style="resize: none; display: inline;"></textarea>
-                        <button type="submit" class="btn btn2" onclick="reload()">Submit</button>
+                        <button type="submit" class="btn btn2">Submit</button>
                     </form>
                     <!-- <span id="msg">Your Message has Been Sent!<br>Thank You!</span> -->
                 </div>
@@ -161,18 +164,18 @@
 
 
     <!-- AOS Scrolling -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
     <!-- JS File if Needed -->
     <script src="script.js"></script>
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyQ94cNzseVxsn0NNfIwrsSKYBXaVLLvCg_fMirbj47zrRqtcpdaStiBmPPiyJ2_LD3/exec'
+    function reloadPage() {
+        window.location.reload();
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxAdyVh6shNBuvXBCrGgmB33HDtORCJbIDIBu3dP9sjZ7CL9nwQxbhC0q19CTX6Frfc/exec'
         const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg");
       
         form.addEventListener('submit', e => {
           e.preventDefault()
@@ -181,13 +184,9 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
-      <script>
-        function submitForm() {
-            var frm = document.getElementsByName('contact-form')[0];
-            frm.submit()
-            frm.reset(); 
-            return false;
-            }
-      </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
