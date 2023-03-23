@@ -151,7 +151,7 @@
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message" style="resize: none; display: inline;"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <button type="submit" class="btn btn2" onclick="submitForm();">Submit</button>
                     </form>
                     <!-- <span id="msg">Your Message has Been Sent!<br>Thank You!</span> -->
                 </div>
@@ -169,9 +169,10 @@
     <script src="script.js"></script>
 
     <script>
-    function reloadPage() {
-        window.location.reload();
-        }
+    function submitForm() {
+        alert("This will Redirect You, thank you for submitting!");
+        window.open("file:///C:/Users/Tate/Desktop/barnanddoorproductions-main/index.html#contact");
+    }
     </script>
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxAdyVh6shNBuvXBCrGgmB33HDtORCJbIDIBu3dP9sjZ7CL9nwQxbhC0q19CTX6Frfc/exec'
