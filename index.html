@@ -189,5 +189,13 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        let btnClear = document.querySelector('button');
+        let inputs = document.querySelector('input');
+
+        btnClear.addEventListerner('click', () => {
+            inputs.forEach(input => input.value = '');
+        });
+    </script>
 </body>
 </html>
